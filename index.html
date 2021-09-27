@@ -236,7 +236,7 @@
 			mounted() {
 			},
 			created() {
-				Cookies.set('name', 'value');
+				this.pais = Cookies.get('pais');
 			},
 			methods: {
 				onChange(e, p) {
