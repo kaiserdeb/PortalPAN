@@ -279,7 +279,7 @@
 				},
 				ingresar(e){
 					e.preventDefault();
-					Cookies.set('pais', this.pais);
+					Cookies.set('pais', this.pais, { expires: 7 });
 				}
 			}
 		})
